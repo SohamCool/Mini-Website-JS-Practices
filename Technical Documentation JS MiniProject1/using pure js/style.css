@@ -1,0 +1,87 @@
+*{
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	margin: 0;
+}
+body{
+	font-family: 'Fira sans', sans-serif;
+	min-height: 100vh;
+}
+button{
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 1rem;
+}
+.main{
+	display: flex;
+	border-right: 1px solid black;
+}
+.left{
+	width: 22%;
+	height: 650px;
+	
+	border-right: solid;
+}
+.right{
+	width: 80%;
+	height: 650px;
+	display: flex;
+	flex-direction: column;
+	padding: 2rem 1rem;
+}
+.heading{
+	padding: 2rem 1rem;
+	border-bottom: 2px solid rgb(75, 74, 74);
+	text-align: center;
+}
+.heading h1{
+	font-size: 1.25rem;
+}
+#menu{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 0rem;
+}
+#menu li{
+	border-bottom: 2px solid rgb(75, 74, 74);
+}
+.button{
+	padding: 1rem;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.button:hover{
+	font-size: larger;
+}
+
+/* li {
+	margin-bottom: 20px;
+	margin-left: 0px;
+	font-size: 18px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    border-bottom: 2px  solid black;
+} */
+
+li a{
+	color: black;
+}
+
+.righthead{
+	margin: 0 auto;
+	text-align: center;
+}
+.righthead {
+	font-size: 2rem;
+}
+.content{
+	padding: 2rem 1rem;
+}
+.content p{
+	font-size: 1.20rem;
+}
